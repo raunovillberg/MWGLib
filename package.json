@@ -1,0 +1,15 @@
+{
+  "name": "com.mountwoolgames.mwglib",
+  "version": "1.0.0",
+  "displayName": "MWG Lib",
+  "description": "Handy extensions.",
+  "dependencies": {
+    "com.unity.test-framework": "1.1.20"
+  },
+  "unity": "2020.2",
+  "author": {
+    "name": "Rauno Villberg",
+    "email": "rauno.villberg@gmail.com",
+    "url": "https://mountwoolgames.itch.io/"
+  }
+}
