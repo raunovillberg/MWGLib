@@ -9,3 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release.
 
 [1.0.0]: --
+
+## [1.0.1] - 2021-03-18
+### Added
+- PlayerPrefs.Get & SetBool
+- string.StartingWith & EndingWith
+
+[1.0.1]: --
