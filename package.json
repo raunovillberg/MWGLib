@@ -1,6 +1,6 @@
 {
   "name": "com.mountwoolgames.mwglib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "MWG Lib",
   "description": "Handy extensions.",
   "dependencies": {
