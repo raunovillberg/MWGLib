@@ -24,5 +24,22 @@ namespace MWG
         {
             return line.EndsWith(end) ? line : line + end;
         }
+        
+        public static string ColoredByHex(this string text, string colorHex)
+        {
+            return colorHex.IsNullOrWhiteSpace()
+                ? text
+                : $"<color={colorHex}>{text}</color>";
+        }
+
+        public static bool IsNullOrWhiteSpace(this string value)
+        {
+            return string.IsNullOrWhiteSpace(value);
+        }
+
+        public static bool IsNullOrEmpty(this string value)
+        {
+            return string.IsNullOrEmpty(value);
+        }
     }
 }
